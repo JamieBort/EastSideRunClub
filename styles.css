@@ -6,7 +6,7 @@ h1 {
     text-align: center;
 }
 
-p, li{
+p, li {
     font-size: 1.5em;
 }
 
@@ -15,18 +15,19 @@ p, li{
     width: 98%;
     border: 1px solid blue;
 }
-#middleDiv{
+
+#middleDiv {
     display: flex;
-	flex-wrap:wrap;
-	justify-content:space-around;
-    margin: auto;    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
     width: 98%;
     /* border: 1px solid green; */
 }
+
 #innerDiv {
     margin: auto;
     min-width: 40%;
-
     max-width: 80%;
     margin: 1em;
     padding: 1em;
@@ -34,17 +35,26 @@ p, li{
 }
 
 /* mobile phones below */
-@media (max-width: 500px){
-    /* h1 {
-        font-size: 3em;
-    }    */
 
-#middleDiv{
-    /* display: flex;
-	flex-wrap:wrap;
-	justify-content:space-around;
-    margin: auto;    
-    width: 98%; */
-    border: 1px solid green;
-}
+
+
+@media (max-width: 800px) {
+    #middleDiv {
+        border: 1px solid red;
+    }
+
+/* @media (max-width: 500px) {
+    h1 {
+        font-size: 3em;
+    }   
+    #middleDiv {
+        border: 1px solid green;
+    } */
+
+/* @media (max-width: 200px) {
+    #middleDiv {
+        border: 1px solid black;
+    } */
+    
+
 }
