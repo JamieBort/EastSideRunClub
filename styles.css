@@ -31,7 +31,7 @@ p, li {
     max-width: 80%;
     margin: 1em;
     padding: 1em;
-    border: 2px solid brown;
+    border: 2px solid red;
 }
 
 /* mobile phones below */
@@ -45,7 +45,7 @@ p, li {
     }
 } */
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     h1 {
         font-size: 5em;
     }
