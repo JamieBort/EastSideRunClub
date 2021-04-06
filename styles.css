@@ -1,8 +1,5 @@
-.center {
-    margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px;
+h1 {
+    font-size: 2em;
 }
 
 .something {
@@ -34,4 +31,11 @@ p, li{
     margin: 1em;
     padding: 1em;
     border: 1px solid blueviolet;
+}
+
+/* mobile phones below */
+@media (max-width: 500px){
+    /* h1 {
+        font-size: 3em;
+    }    */
 }
