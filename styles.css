@@ -36,23 +36,23 @@ p, li {
 
 /* mobile phones below */
 
-@media (max-width: 1000px) {
+/* @media (max-width: 1000px) {
     h1 {
         font-size: 5em;
     }
     #middleDiv {
-        border: 3px solid fuchsia;
+        border: 3px solid gray;
+    }
+} */
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 5em;
+    }
+    #middleDiv {
+        border: 3px solid green;
     }
 }
-
-/* @media (max-width: 500px) {
-    h1 {
-        font-size: 3em;
-    }   
-    #middleDiv {
-        border: 1px solid green;
-        }
-    } */
 
 /* @media (max-width: 100px) {
     h1 {
