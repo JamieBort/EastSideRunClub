@@ -21,7 +21,7 @@ p, li{
 	justify-content:space-around;
     margin: auto;    
     width: 98%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 #innerDiv {
     margin: auto;
@@ -38,4 +38,13 @@ p, li{
     /* h1 {
         font-size: 3em;
     }    */
+
+#middleDiv{
+    /* display: flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+    margin: auto;    
+    width: 98%; */
+    border: 1px solid green;
+}
 }
