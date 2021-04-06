@@ -50,8 +50,18 @@ p, li {
         font-size: 5em;
     }
     #middleDiv {
-        border: 3px solid gold;
+        border: 3px solid green;
     }
+
+
+#innerDiv {
+    /* margin: auto; */
+    min-width: 60%;
+    /* max-width: 80%; */
+    /* margin: 1em;
+    padding: 1em;
+    border: 2px solid royalblue; */
+}
 }
 
 /* @media (max-width: 100px) {
