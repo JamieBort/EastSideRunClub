@@ -13,7 +13,7 @@ p, li {
 #outerDiv {
     margin: auto;
     width: 98%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 #middleDiv {
@@ -34,41 +34,20 @@ p, li {
     border: 2px solid royalblue;
 }
 
-/* mobile phones below */
+/* tablets below */
+/* nothing for tablets yet */
 
-/* @media (max-width: 1000px) {
-    h1 {
-        font-size: 5em;
-    }
-    #middleDiv {
-        border: 3px solid gray;
-    }
-} */
+/* mobile phones below */
 
 @media (max-width: 1000px) {
     h1 {
         font-size: 5em;
     }
     #middleDiv {
-        border: 5px solid goldenrod;
+        /* border: 5px solid goldenrod; */
     }
-
-
-#innerDiv {
-    /* margin: auto; */
-    min-width: 80%;
-    /* max-width: 80%; */
-    /* margin: 1em;
-    padding: 1em;
-    border: 2px solid royalblue; */
+    #innerDiv {
+        min-width: 80%;
+        border: 2px solid royalblue;
+    }
 }
-}
-
-/* @media (max-width: 100px) {
-    h1 {
-        font-size: 3em;
-    }
-    #middleDiv {
-        border: 1px solid black;
-    }
-} */
