@@ -50,13 +50,13 @@ p, li {
         font-size: 5em;
     }
     #middleDiv {
-        border: 3px solid green;
+        border: 5px solid goldenrod;
     }
 
 
 #innerDiv {
     /* margin: auto; */
-    min-width: 60%;
+    min-width: 80%;
     /* max-width: 80%; */
     /* margin: 1em;
     padding: 1em;
