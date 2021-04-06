@@ -2,7 +2,7 @@ h1 {
     font-size: 2em;
 }
 
-.something {
+.something, #url {
     text-align: center;
 }
 
@@ -30,9 +30,10 @@ p, li {
     min-width: 40%;
     max-width: 80%;
     margin: 1em;
-    padding: 1em;
+    padding: .5em;
     border: 2px solid royalblue;
 }
+
 
 /* tablets below */
 /* nothing for tablets yet */
@@ -48,6 +49,10 @@ p, li {
     }
     #innerDiv {
         min-width: 80%;
+        padding: 1em;
         border: 2px solid royalblue;
+    }
+    #url {
+        font-size: 3em;
     }
 }
