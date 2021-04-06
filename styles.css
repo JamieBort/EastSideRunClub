@@ -3,7 +3,35 @@
     width: 50%;
     border: 3px solid green;
     padding: 10px;
-    }
-    h1 {
-        /* margin: auto; */
-        text-align: center;}
+}
+
+.something {
+    text-align: center;
+}
+
+p, li{
+    font-size: 1.5em;
+}
+
+#outerDiv {
+    margin: auto;
+    width: 98%;
+    border: 1px solid blue;
+}
+#middleDiv{
+    display: flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+    margin: auto;    
+    width: 98%;
+    border: 1px solid green;
+}
+#innerDiv {
+    margin: auto;
+    min-width: 40%;
+
+    max-width: 80%;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid blueviolet;
+}
