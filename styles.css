@@ -36,12 +36,13 @@ p, li {
 
 /* mobile phones below */
 
-
-
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
+    h1 {
+        font-size: 3em;
+    }
     #middleDiv {
         border: 1px solid red;
-    }
+    } */
 
 /* @media (max-width: 500px) {
     h1 {
@@ -51,10 +52,11 @@ p, li {
         border: 1px solid green;
     } */
 
-/* @media (max-width: 200px) {
+@media (max-width: 200px) {
+    h1 {
+        font-size: 3em;
+    }
     #middleDiv {
         border: 1px solid black;
-    } */
-    
-
+    }
 }
