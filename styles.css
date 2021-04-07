@@ -1,9 +1,17 @@
 h1 {
     font-size: 2em;
+    text-align: center;
+}
+footer{
+    text-align: center;
+
 }
 
-.something, #url {
-    text-align: center;
+#url {
+    font-size: 2em;
+    margin: auto;
+
+    /* border: 1px solid blue; */
 }
 
 p, li {
