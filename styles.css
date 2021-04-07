@@ -4,7 +4,6 @@ h1 {
 }
 footer{
     text-align: center;
-
 }
 
 #url {
@@ -39,14 +38,25 @@ p, li {
     max-width: 80%;
     margin: 1em;
     padding: .5em;
-    border: 2px solid royalblue;
+    border: 1px solid royalblue;
+    border-radius: .5em;
+}
+
+a:hover{
+padding:.1em;
+  background-color: rosybrown;
+  border-radius: .25em;
 }
 
 /* tablets below */
 
 /* *** nothing for tablets yet *** */
 
-/* mobile phones below */
+/* mobile phones horizontal below */
+
+/* *** nothing for phones horizontal yet *** */
+
+/* mobile phones virtical below */
 
 @media (max-width: 1000px) {
     h1 {
