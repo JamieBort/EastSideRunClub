@@ -63,4 +63,7 @@ p, li {
     #url {
         font-size: 3em;
     }
+    footer{
+        padding-bottom: 3em;
+    }
 }
