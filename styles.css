@@ -13,8 +13,14 @@ footer{
     /* border: 1px solid blue; */
 }
 
-p, li {
+li {
     font-size: 1.5em;
+}
+
+.five_Ws{
+    /* border: 1px solid blue; */
+    text-align: center;
+    font-size: 2em;
 }
 
 #outerDiv {
