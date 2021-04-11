@@ -1,0 +1,85 @@
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+
+#url {
+    font-size: 2em;
+    margin: auto;
+
+    /* border: 1px solid blue; */
+}
+
+li {
+    font-size: 1.5em;
+}
+
+.five_Ws{
+    /* border: 1px solid blue; */
+    text-align: center;
+    font-size: 2em;
+}
+
+#outerDiv {
+    margin: auto;
+    width: 98%;
+    /* border: 1px solid blue; */
+}
+
+#middleDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    width: 98%;
+    /* border: 1px solid green; */
+}
+
+#innerDiv {
+    margin: auto;
+    min-width: 40%;
+    max-width: 80%;
+    margin: 1em;
+    padding: .5em;
+    border: 1px solid royalblue;
+    border-radius: .5em;
+}
+
+a:hover{
+padding:.1em;
+  background-color: rosybrown;
+  border-radius: .25em;
+}
+
+/* tablets below */
+
+/* *** nothing for tablets yet *** */
+
+/* mobile phones horizontal below */
+
+/* *** nothing for phones horizontal yet *** */
+
+/* mobile phones virtical below */
+
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 5em;
+    }
+    #middleDiv {
+        /* border: 5px solid goldenrod; */
+    }
+    #innerDiv {
+        min-width: 80%;
+        padding: 1em;
+        border: 2px solid royalblue;
+    }
+    #url {
+        font-size: 3em;
+    }
+    footer{
+        padding-bottom: 3em;
+    }
+}
