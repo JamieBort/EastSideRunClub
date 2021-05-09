@@ -1,4 +1,4 @@
-# ManliusRunClub
+# EastSideRunClub ~~ManliusRunClub~~
 
 Created the tiny url using https://tinyurl.com/app/
 
