@@ -3,33 +3,37 @@ h1 {
     text-align: center;
 }
 
-h2{
+h2 {
     font-size: 2em;
     text-align: center;
 }
-footer{
+
+footer {
     text-align: center;
 }
 
-#other{
+#other {
     font-size: 1.5em;
 }
 
-#url {
+.footer_anchor {
     font-size: 2em;
     margin: auto;
-    /* border: 1px solid blue; */
+    /* padding-left: 3em; */
+    /* display: inline; */
+    /* border: 1px solid blueviolet; */
+    /* text-align: center; */
 }
 
 li {
     font-size: 1.5em;
 }
 
-.this_week{
+.this_week {
     font-size: 1.5em;
 }
 
-.five_Ws{
+.five_Ws {
     /* border: 1px solid blue; */
     text-align: center;
     font-size: 2em;
@@ -60,10 +64,17 @@ li {
     border-radius: .5em;
 }
 
-a:hover{
-padding:.1em;
-  background-color: rosybrown;
-  border-radius: .25em;
+#footer_div {
+    display: flex;
+    justify-content: space-around;
+    min-width: 80%;
+    padding: 1em;
+    /* border: 2px solid royalblue; */
+}
+
+a:hover {
+    background-color: rosybrown;
+    border-radius: .25em;
 }
 
 /* tablets below */
@@ -74,7 +85,7 @@ padding:.1em;
 
 /* *** nothing for phones horizontal yet *** */
 
-/* mobile phones virtical below */
+/* mobile phones vertical below */
 
 @media (max-width: 1000px) {
     h1 {
@@ -88,10 +99,18 @@ padding:.1em;
         padding: 1em;
         border: 2px solid royalblue;
     }
-    #url {
-        font-size: 3em;
+    #footer_div {
+        display: block;
+        /* min-width: 80%;
+         padding: 1em; */
+        /* border: 2px solid royalblue; */
+        /* text-align: center; */
     }
-    footer{
+    footer {
         padding-bottom: 3em;
+    }
+    .footer_anchor {
+        font-size: 3em;
+        text-align: center;
     }
 }
