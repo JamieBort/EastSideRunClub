@@ -4,6 +4,12 @@ The website is [tiny.one/EastSideRunClub](https://tiny.one/EastSideRunClub)
 
 (Created the tiny url using https://tinyurl.com/app/)
 
+## Associated Links
+* https://www.strava.com/clubs/946849 / https://www.strava.com/clubs/EastSideRunClub **Strava Club**
+* https://trello.com/c/l4SLENYT/770-start-run-club **Trello Card**
+* https://github.com/JamieBort/EastSideRunClub **Repo**
+* [tiny.one/EastSideRunClub](https://tiny.one/EastSideRunClub) **website**
+
 ## Changes to make to the website
 
 ### Appearance of Laptop/desktop
