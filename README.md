@@ -1,8 +1,10 @@
 # EastSideRunClub
 
-Created the tiny url using https://tinyurl.com/app/
+The website is [tiny.one/EastSideRunClub](https://tiny.one/EastSideRunClub)
 
-## Change to make
+(Created the tiny url using https://tinyurl.com/app/)
+
+## Changes to make to the website
 
 ### Appearance of Laptop/desktop
 
